@@ -43,5 +43,6 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 # Project skills rule
 - Khi làm việc với dự án backend hoặc frontend, bắt buộc khám phá và sử dụng các skill phù hợp trong `.agents/skills` để hiểu cấu trúc, quy ước và công cụ sẵn có của từng dự án, qua đó tái sử dụng workflow hiện có và cải thiện hiệu suất làm việc.
+- Khi GitNexus MCP hoặc GitNexus CLI khả dụng, bắt buộc sử dụng GitNexus để khám phá codebase, quan hệ phụ thuộc và luồng gọi trước khi thực hiện thay đổi. Ưu tiên GitNexus MCP; nếu MCP không khả dụng thì sử dụng CLI.
 
 <!-- END:project-skills-rule -->
