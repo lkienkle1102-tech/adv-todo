@@ -1,3 +1,11 @@
+<!-- BEGIN:gitnexus-path-execute -->
+
+# GitNexus path execution rule
+- Trước khi chạy bất kỳ thao tác GitNexus nào qua MCP hoặc CLI, bắt buộc chuyển working directory vào đúng thư mục dự án con cần phân tích: `be-adv-todo/` cho backend hoặc `fe-adv-todo/` cho frontend. Không được chạy hoặc khởi tạo GitNexus từ thư mục gốc `adv-todo/` hiện tại.
+- Mỗi index `.gitnexus` chỉ được tồn tại trong thư mục dự án con tương ứng. Không được tạo hoặc sử dụng `.gitnexus` tại thư mục gốc `adv-todo/`; nếu phát hiện thư mục này ở root thì phải dừng thao tác GitNexus và báo cho người dùng trước khi xử lý tiếp.
+
+<!-- END:gitnexus-path-execute -->
+
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
