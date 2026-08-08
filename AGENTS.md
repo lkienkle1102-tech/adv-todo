@@ -39,6 +39,14 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:rtk-rule -->
 
+<!-- BEGIN:non-interactive-install-rule -->
+
+# Non-interactive installation rule
+- Khi cài đặt bất kỳ dependency, package, tool hoặc phần mềm nào, không chạy ngay lệnh cài đặt mặc định nếu lệnh đó có thể mở prompt hoặc giao diện tương tác trong terminal.
+- Trước khi cài đặt, phải kiểm tra tài liệu hoặc tùy chọn `--help` của công cụ để tìm và sử dụng cờ non-interactive phù hợp (ví dụ: tự động xác nhận, chấp nhận mặc định hoặc tắt prompt) nhằm hoàn tất cài đặt mà không cần tương tác thủ công. Không tự suy đoán tên cờ; nếu công cụ không hỗ trợ chế độ non-interactive thì phải báo rõ trở ngại trước khi tiếp tục.
+
+<!-- END:non-interactive-install-rule -->
+
 <!-- BEGIN:project-skills-rule -->
 
 # Project skills rule
